@@ -1,0 +1,72 @@
+<!-- 
+    Priority
+
+Inline >> Internal  
+
+Internal and External  (Based on order on which ther defined)
+ex -  <link>
+      style{}
+      Internal >> External
+
+      style{}
+      <link>
+      External >> Internal
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Internal CSS -->
+    <style>
+      p {
+        background-color: blueviolet;
+      }
+      h1 {
+        color: green;
+      }
+      /* Group selector */
+      p,article{
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome Here</h1>
+
+    <!-- Inline CSS -->
+    <p style="background-color: yellow; color: aqua">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste labore
+      sapiente dicta ad optio maiores magnam a? Odit, corporis provident.
+    </p>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta error
+      corrupti sunt culpa cupiditate possimus, assumenda inventore facilis eaque
+      perferendis ratione quisquam! Ex qui, consequuntur soluta sapiente illum
+      voluptates sed.
+    </p>
+
+    <article>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consectetur
+      facere vel architecto nam ea quia? Vero, nemo? Quas asperiores autem iste
+      sed fugiat perferendis hic quos? Et veritatis ea sequi doloremque ab unde
+      blanditiis modi, deleniti asperiores saepe ipsa possimus dolorum nesciunt
+      ad animi atque eaque, totam voluptate laudantium.
+    </article>
+
+    <footer>I am footer</footer>
+  </body>
+</html>
+
+
+<!-- 
+    selector
+
+    - element    :  p,h1,articl,section
+    - id         :   
+    - class 
+    - group
+
+-->

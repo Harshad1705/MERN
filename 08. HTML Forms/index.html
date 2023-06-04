@@ -1,0 +1,181 @@
+<!--
+
+    Forms
+
+- structure to collect user input
+- tags for forms :
+        - form   - to create Httml form
+        - input  - used for taking input from user
+        - label  - used to attack text with input tags 
+        imp ------ (  label for='' == input id'' )
+
+        - select 
+        - option
+        - button
+        - textArea
+        - fieldset
+        - legend
+
+ -->
+
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <form>
+        <label for="email">Enter Email Id :</label>
+        <input type="text" id="email" />
+
+        <br /><br />
+
+        <label for="password">Enter Password :</label>
+        <input type="text" id="password" />
+
+        <br /><br />
+
+        <input type="submit" value="Click Here" />
+        <button>Submit</button>
+
+        <br /><br />
+
+        <input type="text" value="Harshad" />
+
+        <br /><br />
+
+        <input type="text" placeholder="Enter your email here" />
+
+        <br /><br />
+
+        <!-- Form Elements -->
+        <h1>Form Elements</h1>
+        <br><br>
+
+        <label for="datepicker">Choose Date</label>
+        <input type="date" id="datepicker" />
+
+        <br /><br />
+
+        <label for="selector1">Choose your dish : </label>
+        <select name="dishes" id="selector1">
+            <option value="maggie">Maggie</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="chips">Chips</option>
+        </select>
+
+        <br /><br />
+        <br /><br />
+
+        <label for="selector1">Choose your dish : </label>
+        <select name="dishes" id="selector1" multiple>
+            <option value="maggie">Maggie</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="chips">Chips</option>
+        </select>
+
+        <br /><br />
+
+        <button>Main hu button</button>
+
+        <br /><br />
+
+        <textarea name="textArea" id="textArea" cols="30" rows="10" placeholder="Eneter text here....."></textarea>
+
+        <br /><br /><br />
+
+        <fieldset>
+            <label for="email">Enter Email Id :</label>
+            <input type="text" id="email" />
+
+            <br /><br />
+
+            <label for="password">Enter Password :</label>
+            <input type="text" id="password" />
+
+            <br /><br />
+
+            <input type="submit" value="Click Here" />
+            <button>Submit</button>
+        </fieldset>
+
+        <br /><br /><br />
+
+        <fieldset>
+            <legend>HTML form dummy</legend>
+            <label for="email">Enter Email Id :</label>
+            <input type="text" id="email" />
+
+            <br /><br />
+
+            <label for="password">Enter Password :</label>
+            <input type="text" id="password" />
+
+            <br /><br />
+
+            <input type="submit" value="Click Here" />
+            <button>Submit</button>
+        </fieldset>
+
+        <br><br><br>
+        
+        <!-- Input Types -->
+        <h1>Input Types</h1>
+        <br><br>
+
+        <input >
+
+        <br><br>
+
+        <label for="name">Enter Name : </label>
+        <input type="text" id="name" name="name">
+        
+        <br><br>
+
+        <label for="button1">Button : </label>
+        <input type="submit" id="button1" name="button1" value="Subscribe">
+
+        <br><br>
+
+        <label for="radio1">Male : </label>
+        <input type="radio" id="radio1" name="radio" >
+
+        <label for="radio2">Female : </label>
+        <input type="radio" id="radio2" name="radio" >
+
+        <label for="radio3">Others : </label>
+        <input type="radio" id="radio3" name="radio" >
+
+        <br><br>
+
+        <label for="checkbox1">English : </label>
+        <input type="checkbox" id="checkbox1" name="checkbox1" >
+
+        <label for="checkbox2">Hindi : </label>
+        <input type="checkbox" id="checkbox2" name="checkbox2" >
+
+        <br><br>
+
+        <label for="fileselect1">Upload : </label>
+        <input type="file" name="fileselect1" id="fileselect1">
+
+        <br><br>
+
+        <input type="image" name="imageButton1" id="imageButton1" alt="Click Here" src="arrow.png" height="50px" width="50px">
+
+        <br><br>
+
+        <label for="password1">Password : </label>
+        <input type="password" name="password1" id="password1">
+
+        <br><br>
+
+        <label for="datepicker">Choose Date</label>
+        <input type="date" id="datepicker" />
+
+        <br><br>
+        
+    </form>
+</body>
+
+</html>
